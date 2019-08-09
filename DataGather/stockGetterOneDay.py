@@ -6,7 +6,8 @@ import datetime
 from datetime import date
 import pandas_datareader.data as web
 symbol = []
-with open('/home/anderson/stockNames.txt') as f:  
+with open('/Users/Anderson Molter/Down
+loads/F500List.txt') as f:  
     for line in f:
         symbol.append(line.strip())
 f.close
